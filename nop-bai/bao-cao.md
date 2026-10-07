@@ -6,7 +6,7 @@
 | MSSV | 2A202602820 |
 | Lớp / Khóa | K4 |
 | Repo GitHub | https://github.com/hshdhu/K4-L3-DAY21-NguyenQuangHuy-2A202602820-CI-CD-for-AI-Systems |
-| Ngày nộp | Chờ hoàn tất triển khai |
+| Ngày nộp | Chờ nộp VLearn |
 
 ## 1. Bộ siêu tham số đã chọn và lý do
 
@@ -35,7 +35,8 @@ Dữ liệu chỉ có khoảng 24,8% lớp thu nhập cao và 75,2% lớp thu nh
 
 | Chỉ số | Bước 2: 22.361 mẫu | Bước 3: 44.722 mẫu |
 |---|---|---|
-| f1_score | Chờ report GitHub Actions | Chờ report GitHub Actions |
-| accuracy | Chờ report GitHub Actions | Chờ report GitHub Actions |
+| f1_score | 0.714932 | 0.735426 |
+| accuracy | 0.874000 | 0.882000 |
 
-**Nhận xét:** Chưa có kết quả từ hai lần chạy trên cloud nên chưa kết luận mức thay đổi. Sau khi pipeline hoàn tất, đối chiếu report trên cùng holdout và xác nhận commit dữ liệu tự động kích hoạt đủ bốn jobs.
+**Nhận xét:** Khi tăng dữ liệu từ 22.361 lên 44.722 mẫu, F1 tăng 0,020494 và accuracy tăng 0,008 trên cùng holdout. Commit dữ liệu d553092 tự động kích hoạt đủ bốn jobs và triển khai thành công. Kết quả này cho thấy cải thiện ở lần thử hiện tại, không chứng minh thêm dữ liệu luôn cải thiện mô hình.
+
