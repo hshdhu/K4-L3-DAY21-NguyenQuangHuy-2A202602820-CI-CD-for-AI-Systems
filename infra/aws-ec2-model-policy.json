@@ -1,0 +1,8 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": "s3:GetObject",
+    "Resource": "arn:aws:s3:::income-lab-huy-2a202602820-895196059707/artifacts/current/model.joblib"
+  }]
+}
